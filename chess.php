@@ -7,3 +7,12 @@ if (isset($_GET['newFigures']))
 
 if (isset($_GET['newFigures']))
   echo $_SESSION['map'];
+
+if (isset($_GET['newFigure'])) {
+  $frCoord = $_GET['frCoord'];
+  $toCoord = $_GET['toCoord'];
+  $figure = $_SESSION['map'][$frCoord];
+  
+
+  
+}
